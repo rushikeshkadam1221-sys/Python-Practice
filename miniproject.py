@@ -5,13 +5,13 @@ num2 = float(input("Enter second number: "))
 
 print("\nChoose an operation:")
 print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
-print("5. Modulus")
+print("2. Subtract")  
+print("3. Multiply")  
+print("4. Divide")              
+print("5. Modulus") 
 print("6. Power") 
 
-choice = input("Enter your choice (1-6): ")
+choice = input("Enter your choice (1-6): ") 
 
 if choice == "1":
     print("Result:", num1 + num2)
