@@ -27,7 +27,7 @@ def print_list(list, idx):
     if (idx == len(list)):
         return
     print(list[idx]) 
-    print_list(list, idx + 1) 
+    print_list(list, idx + 1)  
 
 fruits = ["apple", "banana", "cherry", "date"]
 

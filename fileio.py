@@ -4,4 +4,6 @@ f = open("miniproject.py", "r")
 data = f.read(12)
 print(data)  
 print(type(data))
-f.close()
+f.close() 
+
+
