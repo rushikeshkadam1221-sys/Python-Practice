@@ -27,4 +27,8 @@ with open("recursion.py", "w") as f:
 
 #Delete a file 
 import os 
-os.remove("recursion.py")
+os.remove("recursion.py") 
+
+
+with open("practice.txt","w") as f:
+    f.write("Hi everyone\n we are learning file I/O \n using Java \n I like programming in Java")
