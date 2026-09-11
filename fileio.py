@@ -13,7 +13,18 @@ f = open("recursion.py", "w")
 f.write("Hello, Welcome to the world of Recursion")
 f.close() 
 
-f = open("recursion.py", "r+")
+f = open("recursion.py", "r+")   #overwrite the file
 f.write("abc")
 f.close() 
 
+#with syntax 
+with open("recursion.py", "r") as f:
+    data = f.read()
+    print(data) 
+
+with open("recursion.py", "w") as f:
+    f.write("new data")
+
+#Delete a file 
+import os 
+os.remove("recursion.py")
