@@ -26,9 +26,23 @@ with open("recursion.py", "w") as f:
     f.write("new data")
 
 #Delete a file 
+from ast import With
 import os 
 os.remove("recursion.py") 
 
 
-with open("practice.txt","w") as f:
+with open("practice.txt","w") as f:       # use with open syntax to write to a file
     f.write("Hi everyone\n we are learning file I/O \n using Java \n I like programming in Java")
+
+word = "learning"
+with open("practice.txt","r") as f:
+    data = f.read()
+    if(data.find(word) != -1):
+        print("Word found!")
+    else:
+        print("Word not found!") 
+
+ #from a file containing numbers separated by commas, print the sum of the count of even numbers. 1,2,45,55,86,76
+with open("practice.txt", "r") as f:
+    data = f.read()
+    print(data)
