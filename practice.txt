@@ -1,4 +1,1 @@
-Hi everyone
- we are learning file I/O 
- using Java 
- I like programming in Java
+ 1,2,45,55,86,76
